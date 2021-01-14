@@ -1,80 +1,93 @@
 // Basic math formulaas
 function addition(num1, num2){
-  return -1;
+  let sum = num1 + num2
+  return sum;
 }
-
 function subtraction(num1, num2){
-  return -1;
+  let diff = num1 - num2
+  return diff;
 }
-
 function multiplication(num1, num2){
-  return -1;
+  let cool = num1 * num2
+  return cool;
 }
 
 function division(num1, num2){
-  return -1;
+  let swag = num1 - num2
+  return swag;
 }
 
 // Area formulaas
-function areaSquare(side){
-  return -1;
+function square(num1){
+  let dude = num1 * num1
+  return dude;
 }
 
-function areaRectangle(length, width){
-  return -1;
+function area(num1, num2){
+  let dude = num1 * num2
+  return dude;
 }
 
-function areaParallelogram(base, height){
-  return -1;
+function area(num1, num2){
+  let dude = num1 * num2
+  return dude;
 }
 
-function areaTriangle(base, height){
-  return -1;
+function area(num1, num2){
+  let dude = num1 * num2
+  return dude;
 }
 
-function Circle(radius){
-  return -1;
+function circle(num1){
+  let dude = num1**2 * Math.PI
+  return dude;
 }
 
-function Sphere(radius){
-  return -1;
+function sphere(num1){
+  let dude = 4 * num1**2 * Math.PI
+  return dude;
 }
 
 // Surface Area formulas
-function surfaceAreaCube(side){
-  return -1;
+function square(num1){
+  let dude = 6 * num1**2
+  return dude;
 }
-
-function surfaceAreaCylinder(radius, height){
-  return -1;
+function cylinder(num1, num2){
+  let dude = 2 * Math.PI * num1 * num2
+  return dude;
 }
-
 // Perimeter formulas
-function perimeterSquare(side){
-  return -1;
+function persquare(num1){
+  let dude = 4 * num1 
+  return dude;
+}
+function perrec(num1, num2){
+  let dude = num1**2 + num2**2 
+  return dude;
+}
+function pertri(num1, num2, num3){
+  let dude = num1**2 + num2**2 + num3**2
+  return dude;
 }
 
-function perimeterRectangle(length, height){
-  return -1;
-}
-
-function perimeterTriangle(side1, side2, side3){
-  return -1;
-}
-
-function perimeterCircle(diameter){
-  return -1;
+function percir(num1){
+  let dude = Math.PI * num1
+  return dude;
 }
 
 // Volume formulas
-function volumeCube(side){
-  return -1;
+function cube(num1){
+  let dude = num1 * 3
+  return dude;
 }
 
-function volumeRectangular(length, width, height){
-  return -1;
+function rec(num1, num2,num3){
+  let dude = num1 *num2 * num3
+  return dude;
 }
 
-function volumeCylinder(radius, height){
-  return -1;
+function cyl(num1, num2){
+  let dude = Math.PI * num1**2 *num2
+  return dude;
 }
